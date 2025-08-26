@@ -119,7 +119,7 @@ nav ul li a {
 main{
     margin: 130px 230px;
     border-radius: 10px;
-   background-color: #FFF8F3;;
+    background-color: #FFF8F3;
 }
 .item-title{
     font-weight: normal;
@@ -128,4 +128,39 @@ main{
 .item-detail{
     font-weight: bold;
     font-size: 20px;
+}
+.skill-section{
+    padding-top: 130px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    text-align: left;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.skill-description{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+.all-skill{
+    height: 377px;
+    width: 267px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:30px 30px;
+}
+.all-skill p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #757575;
 }
